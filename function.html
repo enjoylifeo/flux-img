@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI图片生成工具</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1 style="text-align: center; margin: 20px 0;">AI图片生成工具</h1>
+    <nav>
+      <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">联系</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="input-area">
+      <h2>请输入提示词</h2>
+      <textarea id="prompt" placeholder="请输入提示词" rows="4" style="width: 100%;"></textarea>
+      <button id="generate-btn" style="margin-top: 10px;">开始生成</button>
+    </section>
+
+    <section class="generating-area">
+      <h2>正生成的图片</h2>
+      <div id="generating-images">
+        <!-- 正在生成的图片展示区 -->
+      </div>
+    </section>
+
+    <section class="generated-area">
+      <h2>已生成的图片</h2>
+      <div id="generated-images">
+        <img src="img/split_0_0.png" alt="" style="width: 200px; height: 200px;">
+        <img src="img/split_0_1.png" alt="" style="width: 200px; height: 200px;">
+      </div>
+    </section>
+
+    <section class="faq-area">
+      <h2>常见问题 (FAQ)</h2>
+      <div class="faq-item">
+        <h3>问题1: 如何使用这个工具？</h3>
+        <p>回答: 请输入提示词，然后点击“开始生成”按钮。</p>
+      </div>
+      <div class="faq-item">
+        <h3>问题2: 生成的图片在哪里查看？</h3>
+        <p>回答: 已生成的图片会显示在“已生成的图片”区域。</p>
+      </div>
+      <div class="faq-item">
+        <h3>问题3: 如何更改提示词？</h3>
+        <p>回答: 只需在输入框中输入新的提示词，然后重新生成。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 AI图片生成工具. 保留所有权利.</p>
+  </footer>
+</body>
+
+</html>

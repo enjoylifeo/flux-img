@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0e0e0e;
+  color: #ffffff;
+  margin: 0;
+  padding: 40px;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #00ccff;
+  text-decoration: none;
+}
+
+.input-area,
+.generating-area,
+.generated-area,
+.faq-area {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00ccff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.faq-item {
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1a1a1a;
+}
